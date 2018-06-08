@@ -12,7 +12,7 @@ var wrapLog = function (callback, name) {
     }
       result += ")" + " => " + callback(...args);
       console.log(result);
-      return callback;
+      // return callback; //optional?
   };
 
 };
